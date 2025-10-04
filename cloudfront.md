@@ -1,4 +1,3 @@
-* **Amazon CloudFront** is a **fast content delivery network (CDN) service** that **securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds**, all within a **developer-friendly environment** , whereas **Amazon Simple Storage Service (Amazon S3)** is an **object storage service** that offers **industry-leading scalability, data availability, security, and performance**
 * **Benefits of setting up an Amazon CloudFront content delivery network (CDN) distribution with Amazon S3** include:
 1) **Rapid data transfer speeds**
 2) **Improved security and performance** 
