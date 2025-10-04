@@ -1,0 +1,4 @@
+* IP address is a unique identifying no. assigned to every device connected to internet. It identifies our device and device's geographical location. Thus, IP Addressing allows devices to be uniquely identified and communicate over the network.
+* TCP/IP (Transmission Control Protocol / Internet Protocol) is a suite of protocols that enable communication over a network.
+* IP (Internet Protocol) is responsible for routing data packets from the source device to the destination device. It ensures that data is addressed correctly but doesn’t guarantee that data will be delivered in order [It works at the network layer of the OSI model]
+* TCP (Transmission Control Protocol) works on top of IP and ensures reliable delivery of data. It breaks data into packets, numbers them, and ensures they are reassembled correctly at the destination. Thus, TCP ensures reliability, ordered delivery and error checking [It works at the transport layer of the OSI model]
