@@ -1,0 +1,8 @@
+* When some changes are made in an existing project, a new **version** of the existing project is being made. 
+* **Key features of version control** include: i)it **saves versions properly in a professional way** ii)it can **easily see and understand the changes made** iii)it can **restore previous versions** iv)it even helps to **collaborate with others** without overwriting each other v)it also **provides backup** of the project vi)**branches help to work safely in separate contexts**
+* **Modified** means that we have changed the file but have not committed it to our database yet. **Staged** means that we have marked a modified file in its current version to go into our next commit snapshot. **Committed** means that the data is safely stored in our local database.
+* **Git branch** command is used as a branch management tool which can list the
+ branches we have, create a new branch, delete branches and even rename branches.
+* The **git merge** tool is used to merge one or more branches into the branch we have checked out. It will then advance the current branch to the result of the merge.
+*  The **git cherry-pick** command is used to take the change introduced in a single Git commit and try to re-introduce it as a new commit on the branch we’re currently on. This can be useful to only take one or two commits from a branch individually rather than merging in the branch which takes all the changes.
+*  The **git revert** command is essentially a reverse git cherry-pick command. It creates a new commit that applies the exact opposite of the change introduced in the commit we’re targeting, essentially undoing or reverting it.
