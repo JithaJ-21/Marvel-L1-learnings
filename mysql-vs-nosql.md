@@ -1,4 +1,5 @@
-* Key differences between MySQL and NoSQL:
+### Key differences between MySQL and NoSQL:
+  
 | |MySQL | NoSQL |
 |-----|---------|---------|
 | 1. | relational database that is based on a tabular design | non-relational database that has a document-based design |
