@@ -1,0 +1,4 @@
+* ***Protocols*** are standardised sets of rules that govern how data is formatted, transmitted and processed between network devices at each layer.
+* ***Switching*** is the process of transferring frames between devices on the same network based on MAC addresses. It is primarily used at data link layer.
+* ***Handshakes*** primarily occur at transport as well as session layer. It is the process in which 2 devices exchange control messages to establish, synchronise or terminate a connection link, ensuring both parties agree on parameters before data transfer begins.
+* IP address is a unique identifying no. assigned to every device connected to internet. It identifies our device and device's geographical location. Internet uses it to differentiate different internet websites, devices and networks. Thus, ***IP Addressing*** allows devices to be uniquely identified and communicate over the network.
