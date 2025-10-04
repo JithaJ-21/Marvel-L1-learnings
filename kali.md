@@ -1,5 +1,7 @@
-* Kali Linux is a powerful Linux distribution used for penetration testing and security auditing
-* Penetration test or "pen test" is a security test that launches a mock cyberattack to find vulnerabilities in a computer system
-* Nmap is a widely used pen test tool of Kali Linux
-* NMAP scan techniques: -sS, -sT, -sU
-* Learned some Nmap commands(-sP, -sn, -A, -Pn, -p, -iL) and also performed a basic pen test on VirtualBox, scanning the ports, OS etc.
+| Nmap command | What it does |
+|-------|---------|
+| -sP/-sn | Host discovery only—determines which targets are up; skips port scanning |
+| -Pn | Skips host discovery—treats all targets as up and goes straight to port scanning (Use this when targets block ICMP/ping or you suspect host discovery will fail) |
+| -A | “Aggressive” all-in-one scan—enables OS detection, version detection, default NSE scripts and traceroute |
+| -p | Specify ports to scan.Use when: You want to limit scan time or target specific services |
+| -iL<file> | Read targets from a file |
